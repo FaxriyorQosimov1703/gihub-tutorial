@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+#head {
+  position: relative;
+}
+
+#head #window-bg-1 {
+  background: linear-gradient(-45deg, #FF1, #4444, #24E);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  -webkit-filter: blur(200px);
+          filter: blur(200px);
+  z-index: -1100;
+}
+
+#head #window-bg-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#head #window-bg-2 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#head #window-bg-2 .container .sidebar {
+  width: 100%;
+  height: 90vh;
+  background-color: #faefef;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  z-index: 10;
+  border: 4px solid #fff;
+  border-radius: 10px;
+}
+
+#head #window-bg-2 .container .sidebar p {
+  z-index: 10;
+}
+/*# sourceMappingURL=style.css.map */
